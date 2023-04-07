@@ -1,1 +1,2 @@
-# considaration_bot
+# consideration_bot
+GlitchとGASを用いたDiscordBot
