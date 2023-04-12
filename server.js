@@ -1,5 +1,5 @@
 const http = require('http');
-const querystring = require('querystring');
+const querystring = require('querystring-es3');
 const discord = require('discord.js');
 const client = new discord.Client();
 
@@ -32,7 +32,7 @@ http.createServer(function(req, res){
 }).listen(3000);
 
 client.on('ready', message =>{
- console.log('Bot準備完了');
+ console.log('Bot準備完了！');
  client.user.setPresence({ activity: { name: '検討' } });
 });
 
